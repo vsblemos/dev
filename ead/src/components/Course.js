@@ -9,12 +9,16 @@ import Gallery from "./Gallery";
 const Course = () =>{
     return(
     <>
-    <div className="course-ctn" id="courses">
+    <div className="course-ctn">
         <div className="d-flex">
             <h2>Last Lesson:</h2>
             <button className="btn btn-primary">Keep Learning</button>
+            
         </div>
+        <div>
         <Gallery></Gallery>
+        </div>
+        
     </div>
 
 

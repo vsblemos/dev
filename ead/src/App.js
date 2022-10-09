@@ -12,17 +12,20 @@ const App = () =>{
     <div>
     <Header className="container-fluid"></Header>
     </div>
-    <div>
+    <div className="container">
     <div className="row">
       <div className="col-2" id="sidebar">
         <Sidebar></Sidebar>
       </div>
-      <div className="col-7 text-center">
+      <div className="col-7 text-center" id="course">
         <h1>Welcome Back, Victor</h1>
-        <Course className></Course>
+        <div className="col-8">
+        <Course></Course>
+        </div>
+        
 
       </div>
-      <div className="col-3">
+      <div className="col-3" id="ranking">
         <h1>teste 3</h1>
       </div>
 

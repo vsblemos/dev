@@ -15,7 +15,8 @@ const Gallery = () =>{
         slidesToScroll: 1
       };
     return(
-        <Slider {...settings} className="col-10 d-flex align-content-center gallery-slider">
+        <div className="gallery-container d-flex justify-content-center">
+        <Slider {...settings} className="col-11 gallery-slider">
             {data.map((item)=>(
                <div key={item} className="miniature">
                 <img src={item.img}></img>
@@ -23,6 +24,7 @@ const Gallery = () =>{
                </div> 
             ))}
         </Slider>
+        </div>
     )}
         
 

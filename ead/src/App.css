@@ -11,7 +11,7 @@
 }
 /* Sidebar */
 
-#sidebar{
+#sidebar,#course,#ranking{
   margin: 0;
   padding: 0;
 }
@@ -32,6 +32,10 @@
   padding: 0;
   margin: 0;
   
+}
+
+#courses .gallery-container{
+  width: 80%;
 }
 
 
