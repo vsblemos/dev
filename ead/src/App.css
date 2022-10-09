@@ -28,21 +28,41 @@
   object-fit: cover;
 }
 
+#courses .mainlesson img{
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
 #courses .gallery-slider{
   padding: 0;
   margin: 0;
   
 }
+#main{
+  background-color: yellow;
+  margin:5px 5px
+  
+}
 
-#courses .gallery-container{
-  width: 80%;
+#main2{
+  background-color: blue;
+  margin:5px 5px
 }
 
 
-.col-7{
+#class-container{
+  background-color: green;
+  margin:0 5px
+}
+
+#course{
   background-color: red;
 }
 .col-3{
   background-color: aqua;
 }
+
+
 

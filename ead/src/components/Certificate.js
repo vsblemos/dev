@@ -2,12 +2,10 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css"
 import "../App.css";
-import img1 from "../Image/course_1.jpeg";
-import img2 from "../Image/course_2.jpeg";
-import img3 from "../Image/course_3.jpeg";
-import img4 from "../Image/course_4.jpeg";
+import certificate from "../Image/certificate.jpeg";
 
-const Course = () =>{
+
+const Certificate = () =>{
     return(
     <>
     <div className="course-ctn">
@@ -16,14 +14,15 @@ const Course = () =>{
             <button className="btn btn-primary">Keep Learning</button>
         </div>
 
-        <div className="miniature">
-        <img src={img1}></img>
-        <img src={img2}></img>
-        <img src={img3}></img>
-        </div>
-        <div className="mainlesson d-flex flex-column">
-            <img src={img4}></img>
+        <div className="mainlesson d-flex">
+            <img src={certificate}></img>
+            <img src={certificate}></img>
             <button className="btn btn-primary">take a test</button>
+        </div>
+        <div className="miniature">
+        <img src={certificate}></img>
+        <img src={certificate}></img>
+        <img src={certificate}></img>
         </div>
         
     </div>
@@ -33,4 +32,4 @@ const Course = () =>{
 
     );}
 
-    export default Course
+    export default Certificate

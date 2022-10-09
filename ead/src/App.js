@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import "./App.css";
 import Sidebar from "./components/Sidebar";
 import Course from "./components/Course";
+import Certificate from "./components/Certificate";
 
 
 const App = () =>{
@@ -17,25 +18,36 @@ const App = () =>{
       <div className="col-2" id="sidebar">
         <Sidebar></Sidebar>
       </div>
-      <div className="col-7 text-center" id="course">
-        <h1>Welcome Back, Victor</h1>
-        <div className="col-8">
-        <Course></Course>
+      <div className="col-7" id="courses">
+        <div id="main">
+        <div id="class-container">
+          <h1>Welcome Back</h1>
+          <div>
+          <Course></Course>
+          </div>
+        </div>
+        <div id="main2">
+          <Certificate></Certificate>
+        </div>
         </div>
         
-
       </div>
+
       <div className="col-3" id="ranking">
-        <h1>teste 3</h1>
+      <div id="main">
+        <div id="class-container">
+          
+          <div>
+          
+          </div>
+        </div>
+
+
+
       </div>
-
     </div>
     </div>
-   
-  
-
-    
-   
+    </div>
     </>
   )
 }
