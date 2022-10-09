@@ -93,6 +93,38 @@
 
 /* Progress */
 
+#progress-container{
+  background-color: blue;
+  
+
+}
+
+#progress-container .circular-progress-container{
+  padding: 75px 0;
+}
+
+#progress-container .circular-progress{
+  padding: 75px 0;
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: conic-gradient(red 300deg,gray 0deg);
+}
+
+#progress-container .circular-progress::before{
+  content: "";
+  position: absolute;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+#progress-container .progress-value{
+  position: relative;
+}
+
+
 
 
 
