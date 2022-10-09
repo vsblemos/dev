@@ -1,0 +1,44 @@
+/* Header */
+.bg-header{
+  height: 180px; 
+}
+
+.bg-header img{
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+
+}
+/* Sidebar */
+
+#sidebar{
+  margin: 0;
+  padding: 0;
+}
+.sidebar{
+  border-radius: 20px;
+}
+
+/* Main Content */
+
+#courses .miniature img{
+  width: 200px;
+  height: 108px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+#courses .gallery-slider{
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+.col-7{
+  background-color: red;
+}
+.col-3{
+  background-color: aqua;
+}
+
