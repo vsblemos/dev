@@ -10,7 +10,7 @@ import img4 from "../Image/course_4.jpeg";
 const Course = () =>{
     return(
     <>
-    <div className="course-ctn">
+    <div className="course">
         <div className="d-flex">
             <h2>Last Lesson:</h2>
             <button className="btn btn-primary">Keep Learning</button>

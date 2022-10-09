@@ -21,12 +21,12 @@ const App = () =>{
         <Sidebar></Sidebar>
       </div>
       <div className="col-7" id="courses">
-        <div id="main">
+          <h1 className="primary-title">Welcome Back</h1>
+        <div className="course-container">
         <div id="class-container">
-          <h1>Welcome Back</h1>
-          <div>
+          
           <Course></Course>
-          </div>
+          
         </div>
         <div id="main2">
           <Certificate></Certificate>
