@@ -23,9 +23,26 @@
   padding-left: 30px;
 }
 
+.secondary-title{
+  font-size:36px;
+  font-family: var(--font),sans-serif;
+  color: var(--font-color);
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+
+
 .title{
+  font-size:24px;
+  font-family: var(--font),sans-serif;
+  color: var(--font-color);
+}
+
+.primary-title{
   font-size:48px;
   font-family: var(--font),sans-serif;
+  color: var(--font-color);
 }
 
 .inner-text{
@@ -79,7 +96,7 @@
 }
 
 .secondary-menu{
-  margin-top: 600px;
+  margin-top: 530px;
 }
 
 .logo{
@@ -101,18 +118,28 @@
 /* Courses */
 
 #courses .course-container{
-  background-color: red;
+  padding-left: 15px;
+}
+
+#class-container, #certificate{
+  
   padding-left: 15px;
 }
 
 #courses .miniature img{
+  margin-top: 20px;
   width: 200px;
   height: 108px;
   border-radius: 20px;
   object-fit: cover;
+  margin-right: 20px;
+  
 }
 
 #courses .mainlesson img{
+  margin-top: 45px;
+  margin-bottom: 20px;
+  padding-right: 20px;
   width: 300px;
   height: 200px;
   border-radius: 20px;
@@ -124,48 +151,61 @@
   margin: 0;
   
 }
-#main{
-  background-color: yellow;
-  margin:5px 5px
+
+#courses .button{
+  margin-right: 15px;
+  background-color: var(--button-color);
+  border: none;
+  color: var(--font-color);
+}
+
+#courses .test-btn{
+  background-color: var(--font-color);
+  border: none;
+  color: var(--body-color);
+}
+
   
-}
 
-#main2{
-  background-color: blue;
-  margin:5px 5px
+#certificate{
+  margin-top: 70px;
 }
 
 
-#class-container{
-  background-color: green;
-  margin:0 5px
-}
-
-#course{
-  background-color: red;
-}
-.col-3{
-  background-color: aqua;
-}
 
 /* ranking */
 
+
+
 #ranking-container{
-  background-color: chartreuse;
+  background-color: var(--bg-color);
+  border-radius: 20px;
 }
 
 #ranking-container .avatar{
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: grey;
   margin: 2.5px;
+}
+
+#ranking>h3.title{
+  width:50%;
+  margin-top: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#ranking-container .users-avatar{
+  padding:25px 30px;
 }
 
 #ranking-container .user-avatar{
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  
   
 }
 
@@ -177,8 +217,12 @@
 
 /* Progress */
 
+#progress{
+  margin-top: 165px;
+}
+
 #progress-container{
-  background-color: blue;
+ border-radius: 20px;
   
 
 }
@@ -190,23 +234,28 @@
 #progress-container .circular-progress{
   padding: 75px 0;
   position: relative;
-  height: 150px;
-  width: 150px;
+  height: 180px;
+  width: 180px;
   border-radius: 50%;
-  background: conic-gradient(red 300deg,gray 0deg);
+  background: conic-gradient(var(--font-color) 300deg,gray 0deg);
 }
 
 #progress-container .circular-progress::before{
   content: "";
   position: absolute;
-  height: 130px;
-  width: 130px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: var(--body-color);
 }
 #progress-container .progress-value{
   position: relative;
+  padding: 0;
 }
+
+
+
+
 
 
 

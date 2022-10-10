@@ -9,20 +9,21 @@ const Certificate = () =>{
     return(
     <>
     <div className="course-ctn">
-        <div className="d-flex">
-            <h2>Last Lesson:</h2>
-            <button className="btn btn-primary">Keep Learning</button>
-        </div>
+            <h2 className="secondary-title">Certificates</h2>
+            <h3 className="title">Your Certificates</h3>
+        
 
         <div className="mainlesson d-flex">
             <img src={certificate}></img>
             <img src={certificate}></img>
-            <button className="btn btn-primary">take a test</button>
         </div>
-        <div className="miniature">
-        <img src={certificate}></img>
-        <img src={certificate}></img>
-        <img src={certificate}></img>
+        <div>
+            <h3 className="inner-text">Available Certificates</h3>
+            <div className="miniature">
+                <img src={certificate}></img>
+                <img src={certificate}></img>
+                <img src={certificate}></img>
+            </div>
         </div>
         
     </div>

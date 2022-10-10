@@ -11,9 +11,9 @@ const Course = () =>{
     return(
     <>
     <div className="course">
-        <div className="d-flex">
-            <h2>Last Lesson:</h2>
-            <button className="btn btn-primary">Keep Learning</button>
+        <div className="d-flex justify-content-between">
+            <h2 className="title">Last Lesson:</h2>
+            <button className="button btn btn-primary">Keep Learning</button>
         </div>
 
         <div className="miniature">
@@ -23,8 +23,8 @@ const Course = () =>{
         </div>
         <div className="mainlesson d-flex flex-column">
             <img src={img4}></img>
-            <button className="btn btn-primary">take a test</button>
         </div>
+            <button className="test-btn btn btn-primary">take a challenge</button>
         
     </div>
 

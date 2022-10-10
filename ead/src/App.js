@@ -28,7 +28,7 @@ const App = () =>{
           <Course></Course>
           
         </div>
-        <div id="main2">
+        <div id="certificate">
           <Certificate></Certificate>
         </div>
         </div>
@@ -37,7 +37,7 @@ const App = () =>{
 
       <div className="col-3" id="ranking">
       <div id="main">
-        <div id="ranking">
+        <div >
           <Ranking></Ranking>
         </div>
         <div id="progress">

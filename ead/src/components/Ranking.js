@@ -27,7 +27,7 @@ const Ranking = () =>{
         </div>
         <div className="user-container d-flex flex-column justify-content-center align-items-center">
             <span className="user-avatar"><img src={user} alt="user" className="img-fluid w-100"></img></span>
-            <h3 className="text-center">You are the 2nd in you class</h3>
+            <h3 className="title text-center text-wrap">You are the 2nd in you class</h3>
         </div>
         <div className="users-avatar ranking-down d-flex flex-wrap">
             <span className="avatar"></span>
